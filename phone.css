@@ -1,0 +1,74 @@
+#home-section{
+    height: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.e-card{
+    width: 390px;
+}
+
+#container{
+    top: 500px;
+}
+
+#skill-section{
+    margin-bottom: 400px;
+}
+
+#home-section::before{
+    height: 1100px;
+}
+
+.coffee-text{
+    margin-left: 110px;
+}
+
+.flip-card{
+    margin-left: px;
+    width: 350px;
+    height: 250px;
+    margin-left: 5px;
+}
+
+.name{
+  top: 15.1em;
+}
+.date_8264{
+    top: 13.6em;
+}
+.heading_8264{
+    left: 7.6em;
+}
+.logo{
+    left: 6.7em;
+}
+.contactless{
+    left: 6.4em;
+}
+.number{
+    left: .6em;
+}
+
+
+
+.tooltip-container{
+    margin-left: 5px;
+}
+.spinner-2 {
+    margin-left: 200px;
+}
+
+.gallery img{
+    margin-bottom: 50px;
+}
+
+.headings{
+    font-size: 1.7rem;
+}
+
+/* home-section end */
+
+
+/* about-section end */
