@@ -9,6 +9,10 @@
     width: 390px;
 }
 
+.hire-btn{
+    /* margin-left: 90px; */
+}
+
 #container{
     top: 500px;
 }
@@ -22,13 +26,13 @@
 }
 
 .coffee-text{
-    margin-left: 110px;
+    margin-left: 60px;
 }
 
 .flip-card{
-    margin-left: px;
+    margin-left: 800px;
     width: 350px;
-    height: 250px;
+    height: 300px;
     margin-left: 5px;
 }
 

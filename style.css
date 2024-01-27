@@ -1366,3 +1366,11 @@ footer{
   transform: scale(1.08) translateY(-4px);
   color: #ffe071;
 }
+
+/* responsive  */
+
+@media (min-width: 741px) {
+  .e-card{
+
+  }
+}
