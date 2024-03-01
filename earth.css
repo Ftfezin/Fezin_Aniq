@@ -128,3 +128,27 @@
     top: 60px;
     animation: twinkling 2s infinite;
   }
+
+  /* Portrait */
+@media only screen and (max-device-width: 360px) and (orientation: portrait) {
+  #star-1{
+    display: none;
+  }
+  #star-2{
+    display: none;
+  }
+  #star-3{
+    display: none;
+  }
+  #star-4{
+    display: none;
+  }
+  #star-5{
+    display: none;
+  }
+  #star-6{
+    display: none;
+  }  #star-7{
+    display: none;
+  }
+}

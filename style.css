@@ -51,8 +51,8 @@ html{
 display: flex;
 justify-content: center;
 align-items: center;
-/* background-color: gray; */
-position: sticky;   
+background-color: gray;
+position:relative;   
 top: 0;
 
 }
@@ -957,17 +957,17 @@ section{
 
 .html{
     animation: html 2s;
-    width: 60%;
+    width: 80%;
 }
 
 .css{
     animation: css 2s;
-    width: 70%;
+    width: 79%;
 }
 
 .python{
     animation: python 2s;
-    width: 80%;
+    width: 50%;
 }
 
 .js{
@@ -981,7 +981,7 @@ section{
     }
 
     to{
-        width: 60%;
+        width: 80%;
     }
 
 }
@@ -992,7 +992,7 @@ section{
     }
 
     to{
-        width: 70%;
+        width: 79%;
     }
 
 }
@@ -1003,15 +1003,9 @@ section{
     }
 
     to{
-        width: 80%;
+        width: 50%;
     }
 
-}
-
-@media only screen and (max-width: 750px) {
-    .skills-area{
-        padding: 0 5%;
-    }
 }
 
 @keyframes js{
@@ -1023,6 +1017,12 @@ section{
       width: 40%;
   }
 
+}
+
+@media only screen and (max-width: 750px) {
+    .skills-area{
+        padding: 0 5%;
+    }
 }
 
 
@@ -1389,4 +1389,16 @@ footer{
   .e-card{
 
   }
+}
+
+/* Portrait */
+@media only screen and (max-device-width: 360px) and (orientation: portrait) {
+  .e-card{
+    width: 350px;
+  }
+
+  .hire-btn{
+    margin-left: 100px;
+  }
+
 }
